@@ -1,0 +1,140 @@
+/*********************** STRUCTURAL STYLES *******************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  background-color: #d5dce4;
+  width: 100%;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.grid-container {
+  
+  width: 87%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 24px;
+  margin: 70px 0;
+}
+
+/**************************** FONT STYLES *******************************/
+
+h1 {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #b3b3b3;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.75em;
+  line-height: 28px;
+}
+
+p {
+  font-size: 1.25em;
+  color: #b3b3b3;
+  line-height: 22px;
+}
+
+/****************************** TESTIMONIALS ****************************/
+
+.testimonial1, .testimonial2, .testimonial3, .testimonial4, .testimonial5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.testimony-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.testimony-top img {
+  width: 13%;
+  border-radius: 50px;
+}
+
+.info {
+  margin: 23px 0 21px 15px;
+
+}
+
+.testimonial1 {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-size: 105px;
+  background-repeat: no-repeat;
+  background-position: top 1vh right 7vw;
+  background-color: hsl(263, 55%, 52%);
+}
+
+.testimonial2 {
+  background-color: #49556b;
+}
+
+.testimonial3 {
+  background-color: #fff;
+}
+
+.testimonial4 {
+  background-color: #18202d;
+}
+
+.testimonial5 {
+  background-color: #fff;
+}
+
+.testimonial3 h3, .testimonial3 h1, .testimonial3 p {
+  color: #4c5262;
+}
+
+.testimonial5 h3, .testimonial5 h1, .testimonial5 p {
+  color: #4c5262;
+}
+
+.testimony-bottom {
+  padding-bottom: 35px;
+}
+
+.testimony-bottom h3 {
+  padding-bottom: 22px;
+}
+
+
+
